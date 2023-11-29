@@ -1,5 +1,4 @@
 # Portfolio
-# My Portfolio
 This is my personal portfolio created with React Vite, where a little bit about me.
 
 ## Configuration
