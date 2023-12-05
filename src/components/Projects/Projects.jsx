@@ -22,7 +22,7 @@ const Projects = () => {
           </button>
         </Link>
 
-        <h2 className="text-7xl md:text-9xl uppercase text-center mt-20">
+        <h2 className="text-5xl md:text-9xl uppercase text-center mt-20">
           Projects.
         </h2>
 
@@ -31,14 +31,14 @@ const Projects = () => {
         </p>
       </header>
 
-      <div className="flex items-center justify-evenly mt-28">
+      <article className="flex flex-col md:flex-row lg:w-3/4 lg:mx-auto items-center gap-10 md:gap-20 mt-28 ">
         <img
           src="../../public/wrench.png"
-          alt="Imagen del proyecto Wrench"
-          className=""
+          alt="Imagen de captura de pantalla del proyecto Wrench"
+          className="h-80 md:h-96 lg:h-auto"
         />
 
-        <div className="w-1/2">
+        <section className="">
           <h3 className="uppercase text-3xl mb-4 animate-fade-down animate-duration-1">
             Wrench
           </h3>
@@ -59,8 +59,35 @@ const Projects = () => {
               Link
             </a>
           </button>
-        </div>
-      </div>
+        </section>
+      </article>
+
+      <article className="flex flex-col md:flex-row lg:w-3/4 lg:mx-auto items-center gap-10 md:gap-20 mt-28">
+        <img
+          src="../../public/emojis.png"
+          alt="Imagen de captura de pantalla del proyecto Parejas de Emojis"
+          className="h-80 md:h-96 lg:h-auto"
+        />
+
+        <section className="">
+          <h3 className="uppercase text-3xl mb-4 animate-fade-down animate-duration-1">
+            Parejas de Emoji
+          </h3>
+          <p className="leading-loose">
+            Parejas de emojis is a memory game created with HTML, CSS and
+            JavaScript, where 16 pairs of covered cards are displayed and can be
+            uncovered two by two until all of them are revealed.
+          </p>
+          <button className="text-white bg-lime-600 hover:bg-lime-800 focus:outline-none  rounded-lg px-5 py-2 text-center mt-6 text-lg">
+            <a
+              href="https://github.com/AkazaXeros/Parejas-de-Emoji"
+              target="_blank"
+              rel="noopener noreferrer">
+              Link
+            </a>
+          </button>
+        </section>
+      </article>
     </div>
   );
 };
