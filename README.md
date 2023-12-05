@@ -11,6 +11,7 @@ This is my personal portfolio created with React Vite, where a little bit about 
 - React
 - JavaScript
 - Vite
+- React Router
 - Tailwind CSS
 
 ## Screenshots
