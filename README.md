@@ -8,14 +8,13 @@ This is my personal portfolio created with React Vite, where a little bit about 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Technologies used
-- React
-- JavaScript
+- React.js
 - Vite
 - React Router
 - Tailwind CSS
 
 ## Screenshots
-![Captura de pantalla 2023-12-05 182142](https://github.com/Snnip/Portfolio/assets/131202034/c4a3d1eb-02a5-497e-8920-b57643a60e75)
+![Captura de pantalla 2023-12-05 230801](https://github.com/Snnip/Portfolio/assets/131202034/68770a84-74ea-4fb2-812c-1c846df4f76b)
 
 ## Contact
 - Email: sanpb10@gmail.com
