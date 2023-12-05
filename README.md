@@ -15,7 +15,7 @@ This is my personal portfolio created with React Vite, where a little bit about 
 - Tailwind CSS
 
 ## Screenshots
-![Captura de pantalla ](https://github.com/Snnip/Portfolio/assets/131202034/7a42ae34-eea4-457d-87f2-8a9e9d133ee3)
+![Captura de pantalla 2023-12-05 182142](https://github.com/Snnip/Portfolio/assets/131202034/c4a3d1eb-02a5-497e-8920-b57643a60e75)
 
 ## Contact
 - Email: sanpb10@gmail.com
