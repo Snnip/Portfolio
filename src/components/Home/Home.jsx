@@ -9,9 +9,9 @@ const Home = () => {
       <p className="text-base md:text-lg">
         a junior fullstack web developer in constant development and learning.
       </p>
-      <Link to="/about">
-        <button className="text-lg md:text-xl uppercase animate-bounce">
-          About me
+      <Link to="/projects">
+        <button className="text-lg text-lime-500 hover:line-through md:text-xl uppercase animate-bounce">
+          Projects
         </button>
       </Link>
 

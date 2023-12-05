@@ -22,9 +22,11 @@ const About = () => {
             </svg>
           </button>
         </Link>
+
         <h2 className="text-7xl md:text-9xl uppercase text-center mt-20">
           About me.
         </h2>
+
         <p className="text-center md:text-lg mt-4 md:mt-10 max-w-2xl mx-auto leading-loose">
           <b className="uppercase">Welcome to my corner,</b>
           <br />
@@ -35,7 +37,7 @@ const About = () => {
 
       <div className="flex flex-col md:flex-row justify-evenly gap-16 text-left mt-16 md:mt-24 leading-loose">
         <div className="md:w-1/2 md:max-w-lg ">
-          <h3 className="text-3xl mb-4 animate-fade-down animate-duration-1 text-yellow-600">
+          <h3 className="text-3xl mb-4 animate-fade-down animate-duration-1 ">
             Take a look!
           </h3>
           <p>
@@ -52,13 +54,13 @@ const About = () => {
             contribute my knowledge in new projects.
             <br />I encourage you to {""}
             <Link to="/contact">
-              <b className="text-yellow-600 hover:text-white">contact me</b>.
+              <b className="text-lime-500 hover:text-white">contact me</b>.
             </Link>
           </p>
         </div>
 
         <div className="md:w-1/2 md:max-w-lg">
-          <h3 className="text-3xl mb-4 animate-fade-down animate-duration-1 text-yellow-600">
+          <h3 className="text-3xl mb-4 animate-fade-down animate-duration-1 ">
             Skills
           </h3>
           <p className="mb-10 md:mb-0">

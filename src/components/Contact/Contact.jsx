@@ -58,7 +58,7 @@ const Contact = () => {
           Email:{" "}
           <a
             onClick={handleEmailClick}
-            className="underline underline-offset-2 decoration-2 decoration-yellow-600 hover:decoration-white cursor-pointer">
+            className="underline underline-offset-2 decoration-2 decoration-lime-500 hover:decoration-white cursor-pointer">
             sanpb10@gmail.com
           </a>
         </p>
@@ -68,7 +68,7 @@ const Contact = () => {
             href="https://www.linkedin.com/in/sandra-polb/"
             target="_blank"
             rel="noopener noreferrer"
-            className="underline underline-offset-2 decoration-2 decoration-yellow-600  hover:decoration-white cursor-pointer">
+            className="underline underline-offset-2 decoration-2 decoration-lime-500  hover:decoration-white cursor-pointer">
             Linkedin
           </a>{" "}
           /{" "}
@@ -76,7 +76,7 @@ const Contact = () => {
             href="https://github.com/Snnip"
             target="_blank"
             rel="noopener noreferrer"
-            className="underline underline-offset-2 decoration-2 decoration-yellow-600  hover:decoration-white cursor-pointer">
+            className="underline underline-offset-2 decoration-2 decoration-lime-500  hover:decoration-white cursor-pointer">
             GitHub
           </a>
         </p>
