@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Footer from "../Footer/Footer";
+import Footer from "./Footer";
 
 const Contact = () => {
   const handleEmailClick = (e) => {
@@ -44,7 +44,10 @@ const Contact = () => {
             </svg>
           </button>
         </Link>
-        <h2 className="text-7xl md:text-9xl uppercase">Hello.</h2>
+        <h2 className="flex flex-row text-7xl md:text-9xl uppercase">
+          <p>Hello</p>
+          <p className="text-lime-500">.</p>
+        </h2>
       </header>
 
       <div>

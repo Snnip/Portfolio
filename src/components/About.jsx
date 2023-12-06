@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Footer from "../Footer/Footer";
+import Footer from "./Footer";
 
 const About = () => {
   return (
@@ -28,7 +28,7 @@ const About = () => {
         </h2>
 
         <p className="text-center md:text-lg mt-4 md:mt-10 max-w-2xl mx-auto leading-loose">
-          <b className="uppercase">Welcome to my corner,</b>
+          <b className="uppercase text-lime-500">Welcome to my corner,</b>
           <br />
           Here you will find more information about me, what I do, and my
           current skills especially in terms of programming and technology.

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
-import wrench from "../../assets/wrench.png";
-import emojis from "../../assets/emojis.png";
+import wrench from "../assets/wrench.png";
+import emojis from "../assets/emojis.png";
 
 const Projects = () => {
   return (
@@ -36,7 +36,7 @@ const Projects = () => {
 
       <div>
         <h3 className="text-2xl md:text-4xl uppercase text-center mt-28 pb-2 border-b-2">
-          Frontend
+          Front-end
         </h3>
 
         <article className="flex flex-col md:flex-row lg:w-3/4 lg:mx-auto items-center gap-10 md:gap-20 mt-14">
@@ -100,7 +100,7 @@ const Projects = () => {
 
       <div>
         <h3 className="text-2xl md:text-4xl uppercase text-center mt-28 pb-2 border-b-2 ">
-          Backend
+          Back-end
         </h3>
 
         <article className="flex flex-col lg:w-3/4 lg:mx-auto  mt-14">
