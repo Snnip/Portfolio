@@ -37,7 +37,7 @@ const About = () => {
 
       <div className="flex flex-col md:flex-row justify-evenly gap-16 text-left mt-16 md:mt-24 leading-loose">
         <div className="md:w-1/2 md:max-w-lg ">
-          <h3 className="text-3xl mb-4 animate-fade-down animate-duration-1 ">
+          <h3 className="text-2xl mb-4 animate-fade-down animate-duration-1 uppercase">
             Take a look!
           </h3>
           <p>
@@ -60,7 +60,7 @@ const About = () => {
         </div>
 
         <div className="md:w-1/2 md:max-w-lg">
-          <h3 className="text-3xl mb-4 animate-fade-down animate-duration-1 ">
+          <h3 className="text-2xl mb-4 animate-fade-down animate-duration-1 uppercase">
             Skills
           </h3>
           <p className="mb-10 md:mb-0">
