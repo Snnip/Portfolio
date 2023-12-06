@@ -17,9 +17,6 @@ const Home = () => {
 
       <div className="mt-12 ml-auto">
         <nav className="flex flex-col md:flex-row gap-3 md:gap-6 text-lg md:text-3xl">
-          <Link to="/" className="hover:line-through">
-            Home
-          </Link>
           <Link to="/about" className="hover:line-through">
             About
           </Link>
