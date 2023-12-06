@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom";
 
+import wrench from "../../assets/wrench.png";
+import emojis from "../../assets/emojis.png";
+
 const Projects = () => {
   return (
     <div className="flex flex-col justify-center gap-8 min-h-screen w-full p-8 md:p-20 mx-auto bg-blend-multiply bg-sky-900 text-slate-300 ">
@@ -38,7 +41,7 @@ const Projects = () => {
 
         <article className="flex flex-col md:flex-row lg:w-3/4 lg:mx-auto items-center gap-10 md:gap-20 mt-14">
           <img
-            src="../../public/wrench.png"
+            src={wrench}
             alt="Imagen de captura de pantalla del proyecto Wrench"
             className="h-80 md:h-96 lg:h-auto"
           />
@@ -69,7 +72,7 @@ const Projects = () => {
 
         <article className="flex flex-col md:flex-row lg:w-3/4 lg:mx-auto items-center gap-10 md:gap-20 mt-28">
           <img
-            src="../../public/emojis.png"
+            src={emojis}
             alt="Imagen de captura de pantalla del proyecto Parejas de Emojis"
             className="h-80 md:h-96 lg:h-auto"
           />
