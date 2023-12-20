@@ -4,7 +4,7 @@ const About = () => {
       id="about"
       className="flex flex-col min-h-screen w-full bg-slate-100 text-black p-10 md:p-20 mt-auto">
       <header>
-        <h2 className="text-7xl md:text-9xl uppercase text-center mt-20">
+        <h2 className="text-5xl md:text-9xl uppercase text-center mt-20">
           About me.
         </h2>
 

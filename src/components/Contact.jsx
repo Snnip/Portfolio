@@ -26,7 +26,7 @@ const Contact = () => {
       id="contact"
       className="flex flex-col justify-center min-h-screen w-full text-black bg-slate-100 p-10 md:p-20">
       <header>
-        <h2 className="flex flex-row text-7xl md:text-9xl uppercase">
+        <h2 className="flex flex-row text-5xl md:text-9xl uppercase">
           <p>Contact</p>
           <p className="text-cyan-500">.</p>
         </h2>
