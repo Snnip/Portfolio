@@ -1,4 +1,5 @@
 import curriculum from "../assets/curriculum.pdf";
+import mouse from "../assets/mouse-cursor.png";
 
 const Home = () => {
   return (
@@ -31,22 +32,12 @@ const Home = () => {
         </div>
       </section>
 
-      <span className="flex justify-center absolute bottom-0 left-1/2 transform -translate-x-1/2 ">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          strokeWidth="1.5"
-          stroke="currentColor"
-          data-slot="icon"
-          className="w-8 h-8">
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3"
-          />
-        </svg>
-      </span>
+      <img
+        src={mouse}
+        alt="Icono de un ratón con una flecha hacia abajo"
+        className="flex justify-center absolute bottom-2 left-1/2 transform -translate-x-1/2"
+        style={{ filter: "brightness(0) invert(100%)" }}
+      />
     </div>
   );
 };

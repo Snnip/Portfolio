@@ -7,7 +7,7 @@ const Projects = () => {
       id="projects"
       className="flex flex-col justify-center gap-8 min-h-screen w-full p-8 md:p-20 mx-auto bg-blend-multiply bg-cyan-900 text-slate-300 ">
       <header>
-        <h2 className="flex justify-center text-5xl md:text-9xl uppercase mt-20">
+        <h2 className="flex justify-center text-5xl md:text-6xl uppercase mt-20">
           <p>Projects</p>
           <p className="text-cyan-500 ">.</p>
         </h2>
@@ -18,7 +18,7 @@ const Projects = () => {
       </header>
 
       <div>
-        <h3 className="text-2xl md:text-4xl uppercase text-center mt-28 pb-2 border-b-2">
+        <h3 className="text-2xl md:text-3xl uppercase text-center mt-28 pb-2 border-b-2">
           Front-end
         </h3>
 
@@ -30,7 +30,7 @@ const Projects = () => {
           />
 
           <section>
-            <h4 className="uppercase text-lg md:text-2xl mb-4 animate-fade-down animate-duration-1">
+            <h4 className="text-lg md:text-2xl mb-4 animate-fade-down animate-duration-1">
               Wrench
             </h4>
             <p className="leading-loose">
@@ -61,7 +61,7 @@ const Projects = () => {
           />
 
           <section>
-            <h4 className="uppercase text-lg md:text-2xl mb-4 animate-fade-down animate-duration-1">
+            <h4 className="text-lg md:text-2xl mb-4 animate-fade-down animate-duration-1">
               Parejas de Emoji
             </h4>
             <p className="leading-loose">
@@ -82,12 +82,12 @@ const Projects = () => {
       </div>
 
       <div>
-        <h3 className="text-2xl md:text-4xl uppercase text-center mt-28 pb-2 border-b-2 ">
+        <h3 className="text-2xl md:text-3xl uppercase text-center mt-28 pb-2 border-b-2 ">
           Back-end
         </h3>
 
         <article className="flex flex-col lg:w-3/4 lg:mx-auto  mt-14">
-          <h4 className="uppercase text-lg md:text-2xl mb-4 animate-fade-down animate-duration-1">
+          <h4 className=" text-lg md:text-2xl mb-4 animate-fade-down animate-duration-1">
             Portal de Necesidades Digitales
           </h4>
           <p>

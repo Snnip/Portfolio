@@ -26,14 +26,14 @@ const Contact = () => {
       id="contact"
       className="flex flex-col justify-center min-h-screen w-full text-black bg-slate-100 p-10 md:p-20">
       <header>
-        <h2 className="flex flex-row text-5xl md:text-9xl uppercase">
+        <h2 className="flex flex-row justify-center text-5xl md:text-6xl uppercase">
           <p>Contact</p>
           <p className="text-cyan-500">.</p>
         </h2>
       </header>
 
-      <div>
-        <p className="md:w-1/2 md:text-lg mt-4 md:mt-10 leading-loose">
+      <div className="flex flex-col justify-center items-center text-center">
+        <p className="w-2/3 md:text-lg mt-4 md:mt-10 leading-loose mb-20">
           If you are interested in contacting me, so I can offer you my
           willingness to learn and my skills, I leave here my email address, and
           my social networks.
