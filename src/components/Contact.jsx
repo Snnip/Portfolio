@@ -24,11 +24,11 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="flex flex-col justify-center min-h-screen w-full text-black bg-slate-100 p-10 md:p-20">
+      className="flex flex-col justify-center min-h-screen w-full  bg-white p-10 md:p-20">
       <header>
         <h2 className="flex flex-row justify-center text-5xl md:text-6xl uppercase">
-          <p>Contact</p>
-          <p className="text-cyan-500">.</p>
+          <p className="text-yellow-400">Contact</p>
+          <p className="text-blue-500">.</p>
         </h2>
       </header>
 
@@ -47,24 +47,6 @@ const Contact = () => {
             onClick={handleEmailClick}
             className="underline underline-offset-2 decoration-2 decoration-cyan-500 hover:decoration-white cursor-pointer">
             sanpb10@gmail.com
-          </a>
-        </p>
-        <p>
-          On the Internet:{" "}
-          <a
-            href="https://www.linkedin.com/in/sandra-polb/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="underline underline-offset-2 decoration-2 decoration-cyan-500  hover:decoration-white cursor-pointer">
-            Linkedin
-          </a>{" "}
-          /{" "}
-          <a
-            href="https://github.com/Snnip"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="underline underline-offset-2 decoration-2 decoration-cyan-500  hover:decoration-white cursor-pointer">
-            GitHub
           </a>
         </p>
       </div>

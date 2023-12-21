@@ -2,14 +2,14 @@ const About = () => {
   return (
     <div
       id="about"
-      className="flex flex-col min-h-screen w-full bg-slate-100 text-black p-10 md:p-20 mt-auto">
+      className="flex flex-col min-h-screen w-full bg-white text-black p-10 md:p-20 mt-auto">
       <header>
-        <h2 className="text-5xl md:text-6xl uppercase text-center mt-20">
+        <h2 className="text-5xl md:text-7xl uppercase text-center mt-20 text-yellow-400">
           About me.
         </h2>
 
         <p className="text-center md:text-lg mt-4 md:mt-10 max-w-2xl mx-auto leading-loose">
-          <b className="uppercase text-cyan-500">Welcome to my corner,</b>
+          <b className="uppercase text-blue-500">Welcome to my corner,</b>
           <br />
           Here you will find more information about me, what I do, and my
           current skills especially in terms of programming and technology.
@@ -33,7 +33,7 @@ const About = () => {
             contribute my knowledge in new projects.
             <br />I encourage you to {""}
             <a href="#contact">
-              <b className="text-cyan-500 hover:text-cyan-700">contact me</b>.
+              <b className="text-blue-500 hover:text-yellow-400">contact me</b>.
             </a>
           </p>
         </div>

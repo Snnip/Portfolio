@@ -3,7 +3,7 @@ import github from "../assets/github.png";
 
 const Footer = () => {
   return (
-    <footer className=" md:h-64 p-8 bg-black text-slate-300">
+    <footer className=" md:h-64 p-8 bg-slate-900 text-slate-300">
       <div className="flex flex-col md:flex-row justify-around md:items-center gap-8">
         <section>
           <h2 className="uppercase font-bold text-xl mb-4">Sandra Pol</h2>

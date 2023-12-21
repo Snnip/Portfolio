@@ -1,3 +1,5 @@
+import Nav from "./Nav";
+
 import curriculum from "../assets/curriculum.pdf";
 import mouse from "../assets/mouse-cursor.png";
 
@@ -5,10 +7,12 @@ const Home = () => {
   return (
     <div
       id="home"
-      className=" min-h-screen w-full mx-auto p-4 md:p-20  bg-cyan-900 text-slate-300">
-      <section className="flex flex-col gap-8 mt-20">
+      className=" min-h-screen w-full p-4 text-black bg-cover bg-center"
+      style={{ backgroundImage: "url(../public/formas.jpg)" }}>
+      <Nav />
+      <section className="flex flex-col mt-64 gap-8 px-10">
         <h2 className="text-6xl md:text-8xl uppercase ">
-          <p className="text-cyan-500 text-7xl md:text-9xl animate-fade-right animate-once animate-duration-[1500ms]">
+          <p className="text-white text-7xl md:text-9xl animate-fade-right animate-once animate-duration-[1500ms]">
             Hey,
           </p>
           <p className="animate-fade-right animate-once animate-duration-[1500ms] animate-delay-1000">
@@ -20,7 +24,7 @@ const Home = () => {
         </p>
 
         <div className="animate-flip-up animate-once animate-duration-[1500ms] animate-delay-[2500ms]">
-          <button className="text-lg text-cyan-500  md:text-xl uppercase animate-bounce animate-infinite text-left  ">
+          <button className="text-lg font-bold text-blue-500  md:text-xl uppercase animate-bounce animate-infinite text-left  ">
             <a
               href={curriculum}
               target="_blank"
@@ -36,7 +40,6 @@ const Home = () => {
         src={mouse}
         alt="Icono de un ratón con una flecha hacia abajo"
         className="flex justify-center absolute bottom-2 left-1/2 transform -translate-x-1/2"
-        style={{ filter: "brightness(0) invert(100%)" }}
       />
     </div>
   );
