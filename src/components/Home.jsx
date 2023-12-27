@@ -7,12 +7,11 @@ const Home = () => {
   return (
     <div
       id="home"
-      className=" min-h-screen w-full p-4 text-black bg-cover bg-center"
-      style={{ backgroundImage: "url(../public/formas.jpg)" }}>
+      className=" flex justify-between min-h-screen w-full p-4 text-black bg-white">
       <Nav />
       <section className="flex flex-col mt-64 gap-8 px-10">
         <h2 className="text-6xl md:text-8xl uppercase ">
-          <p className="text-white text-7xl md:text-9xl animate-fade-right animate-once animate-duration-[1500ms]">
+          <p className="text-yellow-400 text-7xl md:text-9xl animate-fade-right animate-once animate-duration-[1500ms] ">
             Hey,
           </p>
           <p className="animate-fade-right animate-once animate-duration-[1500ms] animate-delay-1000">
@@ -34,13 +33,16 @@ const Home = () => {
             </a>
           </button>
         </div>
+        <img
+          src={mouse}
+          alt="Icono de un ratón con una flecha hacia abajo"
+          className="flex justify-center absolute bottom-2 left-1/2 transform -translate-x-1/2"
+        />
       </section>
 
-      <img
-        src={mouse}
-        alt="Icono de un ratón con una flecha hacia abajo"
-        className="flex justify-center absolute bottom-2 left-1/2 transform -translate-x-1/2"
-      />
+      <section className="flex items-center ">
+        <img src="../../public/san.png" alt="Imagen de logo de Sandra Pol" />
+      </section>
     </div>
   );
 };

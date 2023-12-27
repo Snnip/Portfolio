@@ -7,7 +7,7 @@ const Projects = () => {
       id="projects"
       className="flex flex-col justify-center gap-8 min-h-screen w-full p-8 md:p-20 mx-auto bg-yellow-400 text-black">
       <header>
-        <h2 className="flex justify-center text-5xl md:text-7xl uppercase mt-20">
+        <h2 className="text-white flex justify-center text-5xl md:text-7xl uppercase mt-20">
           <p>Projects</p>
           <p className="text-blue-500 ">.</p>
         </h2>
