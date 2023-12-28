@@ -1,5 +1,4 @@
-import linkedin from "../assets/linkedin.png";
-import github from "../assets/github.png";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -17,10 +16,10 @@ const Footer = () => {
           <h2 className="uppercase font-bold text-xl mb-4">Social</h2>
           <span className="flex gap-4">
             <a href="https://www.linkedin.com/in/sandra-polb/">
-              <img src={linkedin} alt="Imagen de icono LinkedIn" />
+              <FaLinkedin className="w-8 h-8" />
             </a>
             <a href="https://github.com/Snnip">
-              <img src={github} alt="Imagen de icono GitHub" />
+              <FaGithub className="w-8 h-8" />
             </a>
           </span>
         </section>

@@ -2,10 +2,11 @@ const About = () => {
   return (
     <div
       id="about"
-      className="flex flex-col min-h-screen w-full bg-white text-black p-10 md:p-20 mt-auto">
+      className="flex flex-col min-h-screen w-full bg-yellow-400 text-black p-10 md:p-20 mt-auto dark:text-slate-200 dark:bg-slate-900">
       <header>
-        <h2 className="text-5xl md:text-7xl uppercase text-center mt-20 text-yellow-400">
-          About me.
+        <h2 className="flex justify-center text-5xl md:text-9xl uppercase mt-20 text-white">
+          <p>About me</p>
+          <p className="text-blue-500 ">.</p>
         </h2>
 
         <p className="text-center md:text-lg mt-4 md:mt-10 max-w-2xl mx-auto leading-loose">

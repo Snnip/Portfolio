@@ -1,13 +1,14 @@
 import Nav from "./Nav";
 
 import curriculum from "../assets/curriculum.pdf";
-import mouse from "../assets/mouse-cursor.png";
+import { BsMouse } from "react-icons/bs";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Home = () => {
   return (
     <div
       id="home"
-      className=" flex justify-between min-h-screen w-full p-4 text-black bg-white">
+      className=" flex justify-between min-h-screen w-full p-4 text-black bg-white dark:text-slate-200 dark:bg-slate-900">
       <Nav />
       <section className="flex flex-col mt-64 gap-8 px-10">
         <h2 className="text-6xl md:text-8xl uppercase ">
@@ -33,15 +34,20 @@ const Home = () => {
             </a>
           </button>
         </div>
-        <img
-          src={mouse}
-          alt="Icono de un ratón con una flecha hacia abajo"
-          className="flex justify-center absolute bottom-2 left-1/2 transform -translate-x-1/2"
-        />
+        <span className="flex justify-center absolute bottom-2 left-1/2 transform -translate-x-1/2 ">
+          <BsMouse className="w-12 h-12" />
+        </span>
       </section>
 
-      <section className="flex items-center ">
-        <img src="../../public/san.png" alt="Imagen de logo de Sandra Pol" />
+      <section className="flex justify-center items-center px-4 fixed right-4 top-1/2 h-32  rounded-lg shadow-2xl">
+        <span className="flex flex-col items-center gap-6">
+          <a href="https://www.linkedin.com/in/sandra-polb/">
+            <FaLinkedin className="w-10 h-10" />
+          </a>
+          <a href="https://github.com/Snnip">
+            <FaGithub className="w-10 h-10" />
+          </a>
+        </span>
       </section>
     </div>
   );

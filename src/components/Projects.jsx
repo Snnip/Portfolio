@@ -5,9 +5,9 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="flex flex-col justify-center gap-8 min-h-screen w-full p-8 md:p-20 mx-auto bg-yellow-400 text-black">
+      className="flex flex-col justify-center gap-8 min-h-screen w-full p-8 md:p-20 mx-auto bg-white text-black dark:text-slate-200 dark:bg-slate-900">
       <header>
-        <h2 className="text-white flex justify-center text-5xl md:text-7xl uppercase mt-20">
+        <h2 className="text-yellow-400 flex justify-center text-5xl md:text-9xl uppercase mt-20">
           <p>Projects</p>
           <p className="text-blue-500 ">.</p>
         </h2>
@@ -41,7 +41,7 @@ const Projects = () => {
               formatted, or any other digital file modification, Wrench connects
               users with talented individuals who can assist.
             </p>
-            <button className="text-white rounded-full px-12 py-2 text-center mt-6 text-lg transition ease-in-out delay-100 bg-blue-500  hover:-translate-y-1 hover:scale-110 hover:bg-slate-800 duration-300">
+            <button className="text-white rounded-full px-12 py-2 text-center mt-6 text-lg transition ease-in-out delay-100 bg-blue-500  hover:-translate-y-1 hover:scale-110 hover:bg-slate-800 duration-300 dark:hover:bg-yellow-500">
               <a
                 href="https://github.com/AkazaXeros/portal-necesidades-digitales-app"
                 target="_blank"
@@ -68,7 +68,7 @@ const Projects = () => {
               JavaScript, where 16 pairs of covered cards are displayed and can
               be uncovered two by two until all of them are revealed.
             </p>
-            <button className="text-white rounded-full px-12 py-2 text-center mt-6 text-lg transition ease-in-out delay-100 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-slate-800 duration-300">
+            <button className="text-white rounded-full px-12 py-2 text-center mt-6 text-lg transition ease-in-out delay-100 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-slate-800 duration-300 dark:hover:bg-yellow-500">
               <a
                 href="https://github.com/AkazaXeros/Parejas-de-Emoji"
                 target="_blank"
@@ -98,7 +98,7 @@ const Projects = () => {
             needs that can be done through a digital file.
           </p>
 
-          <button className="text-white rounded-full w-48 py-2 text-center mt-6 text-lg transition ease-in-out delay-100 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-slate-800 duration-300">
+          <button className="text-white rounded-full w-48 py-2 text-center mt-6 text-lg transition ease-in-out delay-100 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-slate-800 duration-300 dark:hover:bg-yellow-500">
             <a
               href="https://github.com/Snnip/Portal-de-necesidades-digitales"
               target="_blank"

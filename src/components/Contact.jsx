@@ -24,10 +24,10 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="flex flex-col justify-center min-h-screen w-full  bg-white p-10 md:p-20">
+      className="flex flex-col justify-center min-h-screen w-full  bg-yellow-400 p-10 md:p-20 dark:text-slate-200 dark:bg-slate-900">
       <header>
-        <h2 className="flex flex-row justify-center text-5xl md:text-6xl uppercase">
-          <p className="text-yellow-400">Contact</p>
+        <h2 className="flex flex-row justify-center text-5xl md:text-9xl uppercase">
+          <p className="text-white">Contact</p>
           <p className="text-blue-500">.</p>
         </h2>
       </header>
