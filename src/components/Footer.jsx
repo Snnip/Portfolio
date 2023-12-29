@@ -15,10 +15,16 @@ const Footer = () => {
         <section>
           <h2 className="uppercase font-bold text-xl mb-4">Social</h2>
           <span className="flex gap-4">
-            <a href="https://www.linkedin.com/in/sandra-polb/">
+            <a
+              href="https://www.linkedin.com/in/sandra-polb/"
+              target="_blank"
+              rel="noopener noreferrer">
               <FaLinkedin className="w-8 h-8" />
             </a>
-            <a href="https://github.com/Snnip">
+            <a
+              href="https://github.com/Snnip"
+              target="_blank"
+              rel="noopener noreferrer">
               <FaGithub className="w-8 h-8" />
             </a>
           </span>
