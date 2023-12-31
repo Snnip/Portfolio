@@ -8,9 +8,9 @@ const Home = () => {
   return (
     <div
       id="home"
-      className=" flex justify-between min-h-screen w-full p-4 text-black bg-white dark:text-slate-200 dark:bg-slate-900">
+      className=" flex min-h-screen w-full p-4 text-black bg-white dark:text-slate-200 dark:bg-slate-900">
       <Nav />
-      <section className="flex flex-col mt-64 gap-8 px-4 md:px-10">
+      <section className="flex flex-col mt-64 gap-8 px-4 md:px-16">
         <h2 className="text-6xl md:text-8xl uppercase ">
           <p className="text-yellow-400 text-7xl md:text-9xl animate-fade-right animate-once animate-duration-[1500ms] ">
             Hey,
@@ -39,7 +39,7 @@ const Home = () => {
         </span>
       </section>
 
-      <section className="flex justify-center items-center px-4 fixed right-4 top-24 h-12 md:h-32 rounded-lg shadow-2xl">
+      <section className="flex justify-center items-center px-4 fixed right-4 top-40 h-12 md:h-32 rounded-lg shadow-2xl">
         <span className="flex flex-row md:flex-col items-center gap-4 md:gap-6">
           <a href="https://www.linkedin.com/in/sandra-polb/">
             <FaLinkedin className="w-8 h-8 md:w-10 md:h-10" />
