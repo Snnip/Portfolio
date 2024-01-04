@@ -21,6 +21,7 @@ const Contact = () => {
           name="contact"
           method="POST"
           data-netlify="true"
+          action="/"
           className="bg-slate-800 max-w-md w-full mx-auto p-6 rounded-lg shadow-md">
           <div className="mb-4">
             <label
