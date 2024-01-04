@@ -18,10 +18,7 @@ const Contact = () => {
         </p>
 
         <form
-          name="contact"
-          method="POST"
-          data-netlify="true"
-          action="/"
+          netlify
           className="bg-slate-800 max-w-md w-full mx-auto p-6 rounded-lg shadow-md">
           <div className="mb-4">
             <label
