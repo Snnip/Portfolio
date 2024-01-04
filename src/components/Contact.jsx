@@ -1,4 +1,43 @@
+import { useState } from "react";
+
+import emailjs from "@emailjs/browser";
+
 const Contact = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_qhf8iip",
+        "template_mfev7ju",
+        e.target,
+        "xLzNE7L6Ys7DJCrkD"
+      )
+      .then((response) => {
+        console.log(response);
+        // Reiniciar los datos del formulario después de enviar
+        setFormData({
+          name: "",
+          email: "",
+          message: "",
+        });
+      })
+      .catch((error) => console.log(error));
+  };
+
   return (
     <div
       id="contact"
@@ -18,7 +57,7 @@ const Contact = () => {
         </p>
 
         <form
-          netlify
+          onSubmit={sendEmail}
           className="bg-slate-800 max-w-md w-full mx-auto p-6 rounded-lg shadow-md">
           <div className="mb-4">
             <label
@@ -32,6 +71,8 @@ const Contact = () => {
               className="w-full px-3 py-2 border rounded-lg text-white bg-slate-800 focus:outline-none focus:border-blue-500"
               required
               type="text"
+              value={formData.name}
+              onChange={handleChange}
             />
           </div>
 
@@ -46,7 +87,9 @@ const Contact = () => {
               placeholder="email@example.com"
               className="w-full px-3 py-2 border rounded-lg text-white bg-slate-800 focus:outline-none focus:border-blue-500"
               required
-              type="email"
+              type="text"
+              value={formData.email}
+              onChange={handleChange}
             />
           </div>
 
@@ -63,6 +106,8 @@ const Contact = () => {
               className="w-full px-3 py-2 border rounded-lg text-white bg-slate-800 focus:outline-none focus:border-blue-500"
               required
               type="text"
+              value={formData.message}
+              onChange={handleChange}
             />
           </div>
 
