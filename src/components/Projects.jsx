@@ -7,17 +7,18 @@ const Projects = () => {
       id="projects"
       className="flex flex-col justify-center gap-8 min-h-screen w-full p-8 md:p-20 mx-auto bg-white text-black dark:text-slate-200 dark:bg-slate-900">
       <header>
-        <h2 className="text-yellow-400 flex justify-center text-5xl md:text-9xl uppercase mt-20">
+        <h2 className="text-yellow-400 flex justify-center text-5xl sm:text-7xl md:text-9xl uppercase mt-10">
           <p>Projects</p>
           <p className="text-blue-500 ">.</p>
         </h2>
 
-        <p className="text-center md:text-lg mt-4 md:mt-10 max-w-2xl mx-auto leading-loose">
+        <p className="text-center md:text-lg mt-10 max-w-2xl mx-auto leading-loose">
           Here you will find some of the projects in which I have collaborated.{" "}
         </p>
       </header>
+
       <div>
-        <h3 className="text-2xl md:text-3xl uppercase text-center mt-28 pb-2 border-b-2 border-blue-500">
+        <h3 className="text-2xl md:text-3xl uppercase text-center mt-20 pb-2 border-b-2 border-blue-500">
           Front-end
         </h3>
 
@@ -52,7 +53,7 @@ const Projects = () => {
           </section>
         </article>
 
-        <article className="flex flex-col md:flex-row lg:w-3/4 lg:mx-auto items-center gap-10 md:gap-20 mt-28">
+        <article className="flex flex-col md:flex-row lg:w-3/4 lg:mx-auto items-center gap-10 md:gap-20 mt-20">
           <img
             src={emojis}
             alt="Imagen de captura de pantalla del proyecto Parejas de Emojis"
@@ -80,7 +81,7 @@ const Projects = () => {
         </article>
       </div>
       <div>
-        <h3 className="text-2xl md:text-3xl uppercase text-center mt-28 pb-2 border-b-2 border-blue-500">
+        <h3 className="text-2xl md:text-3xl uppercase text-center mt-20 pb-2 border-b-2 border-blue-500">
           Back-end
         </h3>
 

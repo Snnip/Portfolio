@@ -10,9 +10,9 @@ const Home = () => {
       id="home"
       className=" flex min-h-screen w-full p-4 text-black bg-white dark:text-slate-200 dark:bg-slate-900">
       <Nav />
-      <section className="flex flex-col mt-64 gap-8 px-4 md:px-16">
-        <h2 className="text-6xl md:text-8xl uppercase ">
-          <p className="text-yellow-400 text-7xl md:text-9xl animate-fade-right animate-once animate-duration-[1500ms] ">
+      <section className="flex flex-col justify-center gap-8 px-4 md:px-16">
+        <h2 className="text-6xl sm:text-8xl uppercase ">
+          <p className="text-yellow-400 animate-fade-right animate-once animate-duration-[1500ms] ">
             Hey,
           </p>
           <p className="animate-fade-right animate-once animate-duration-[1500ms] animate-delay-1000">
@@ -34,13 +34,13 @@ const Home = () => {
             </a>
           </button>
         </div>
-        <span className="flex justify-center absolute bottom-2 left-1/2 transform -translate-x-1/2 ">
+        <span className="flex justify-center absolute bottom-4 left-1/2 transform -translate-x-1/2 ">
           <BsMouse className="w-12 h-12" />
         </span>
       </section>
 
-      <section className="flex justify-center items-center px-4 fixed right-4 top-40 h-12 md:h-32 rounded-lg shadow-2xl">
-        <span className="flex flex-row md:flex-col items-center gap-4 md:gap-6">
+      <section className="flex justify-center items-center px-4 absolute top-48 right-4 transform -translate-y-1/2 h-24 md:h-32 rounded-lg shadow-2xl">
+        <span className="flex flex-col items-center gap-4 md:gap-6">
           <a href="https://www.linkedin.com/in/sandra-polb/">
             <FaLinkedin className="w-8 h-8 md:w-10 md:h-10" />
           </a>

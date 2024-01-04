@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-import { MdOutlineDarkMode } from "react-icons/md";
+import { MdOutlineDarkMode, MdOutlineRocketLaunch } from "react-icons/md";
 import { IoSunnyOutline } from "react-icons/io5";
 import { FaHamburger, FaTimes } from "react-icons/fa";
 
@@ -91,7 +91,9 @@ const Nav = () => {
       <div className="h-10vh flex justify-between z-50  lg:py-5 px-8 py-4 shadow-md text-blue-500 bg-white dark:bg-slate-900 dark:shadow-white dark:shadow-sm">
         <div className=" lg:flex md:flex md:flex-1 lg:flex-1 items-center justify-between font-normal hidden">
           <div>
-            <img src="../../public/avatar.png" alt="" className="w-16 h-16" />
+            <span>
+              <MdOutlineRocketLaunch className="w-16 h-16 text-purple-800" />
+            </span>
           </div>
 
           <div className="flex-10">
@@ -133,7 +135,10 @@ const Nav = () => {
           </div>
         </div>
         <div className="md:hidden flex items-center justify-between w-full">
-          <img src="../../public/avatar.png" alt="" className="w-16 h-16" />
+          <span>
+            <MdOutlineRocketLaunch className="w-16 h-16 text-purple-800" />
+          </span>
+
           <button onClick={handleClick}>
             {open ? (
               <FaTimes className="w-8 h-8" />

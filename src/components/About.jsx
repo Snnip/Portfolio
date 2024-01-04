@@ -2,14 +2,14 @@ const About = () => {
   return (
     <div
       id="about"
-      className="flex flex-col min-h-screen w-full bg-yellow-400 text-black p-10 md:p-20 mt-auto dark:text-slate-200 dark:bg-slate-900">
+      className="flex flex-col min-h-screen w-full bg-yellow-400 text-black p-10 md:p-20 dark:text-slate-200 dark:bg-slate-900">
       <header>
-        <h2 className="flex justify-center text-5xl md:text-9xl uppercase mt-20 text-white">
+        <h2 className="flex justify-center text-5xl sm:text-7xl md:text-9xl uppercase mt-10 text-white">
           <p>About me</p>
           <p className="text-blue-500 ">.</p>
         </h2>
 
-        <p className="text-center md:text-lg mt-4 md:mt-10 max-w-2xl mx-auto leading-loose">
+        <p className="text-center md:text-lg mt-10 md:mt-10 max-w-2xl mx-auto leading-loose">
           <b className="uppercase text-blue-500">Welcome to my corner,</b>
           <br />
           Here you will find more information about me, what I do, and my
@@ -41,10 +41,36 @@ const About = () => {
 
         <div className="md:w-1/2 md:max-w-lg">
           <h3 className="text-2xl mb-4 uppercase">Skills</h3>
-          <p className="mb-10 md:mb-0">
-            HTML · CSS · JavaScript · ReactJs · NodeJs · MySQL · Material UI ·
-            Tailwind CSS · GitHub
-          </p>
+
+          <div className="flex flex-wrap gap-4">
+            <div className="flex items-center justify-center text-white rounded-full  bg-slate-800 w-36 ">
+              HTML
+            </div>
+            <div className="flex items-center justify-center text-white rounded-full  bg-slate-800 w-36">
+              CSS
+            </div>
+            <div className="flex items-center justify-center text-white rounded-full bg-slate-800 w-36 ">
+              JavaScript
+            </div>
+            <div className="flex items-center justify-center text-white rounded-full bg-slate-800 w-36 ">
+              ReactJs
+            </div>
+            <div className="flex items-center justify-center text-white rounded-full bg-slate-800 w-36">
+              NodeJs
+            </div>
+            <div className="flex items-center justify-center text-white rounded-full bg-slate-800 w-36 ">
+              MySQL
+            </div>
+            <div className="flex items-center justify-center text-white rounded-full bg-slate-800 w-36 ">
+              Material UI
+            </div>
+            <div className="flex items-center justify-center text-white rounded-full bg-slate-800 w-36 ">
+              Tailwind CSS
+            </div>
+            <div className="flex items-center justify-center text-white rounded-full bg-slate-800  w-36">
+              GitHub
+            </div>
+          </div>
         </div>
       </div>
     </div>
