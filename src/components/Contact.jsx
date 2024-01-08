@@ -51,9 +51,8 @@ const Contact = () => {
 
       <div className="flex flex-col justify-center items-center text-center mt-10">
         <p className="w-2/3 md:text-lg mt-4 md:mt-10 leading-loose mb-20">
-          If you are interested in contacting me, so I can offer you my
-          willingness to learn and my skills, I leave here my email address, and
-          my social networks.
+          Do not hesitate to contact me by filling out the form below to get to
+          know me better.
         </p>
 
         <form

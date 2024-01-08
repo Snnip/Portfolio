@@ -8,11 +8,11 @@ const Home = () => {
   return (
     <div
       id="home"
-      className=" flex min-h-screen w-full p-4 text-black bg-white dark:text-slate-200 dark:bg-slate-900">
+      className=" flex justify-center min-h-screen w-full p-4 text-black bg-white dark:text-slate-200 dark:bg-slate-900">
       <Nav />
-      <section className="flex flex-col justify-center gap-8 px-4 md:px-16">
-        <h2 className="text-6xl sm:text-8xl uppercase ">
-          <p className="text-yellow-400 animate-fade-right animate-once animate-duration-[1500ms] ">
+      <section className="flex flex-col justify-center items-center gap-8 px-4 md:px-16">
+        <h2 className="text-6xl  sm:text-8xl uppercase ">
+          <p className="text-yellow-400 animate-fade-right animate-once animate-duration-[1500ms] text-7xl sm:text-9xl">
             Hey,
           </p>
           <p className="animate-fade-right animate-once animate-duration-[1500ms] animate-delay-1000">
@@ -39,7 +39,7 @@ const Home = () => {
         </span>
       </section>
 
-      <section className="flex justify-center items-center px-4 absolute top-48 right-4 transform -translate-y-1/2 h-24 md:h-32 rounded-lg shadow-2xl">
+      <section className="flex justify-center items-center px-4 absolute top-40 md:top-48 right-4 transform -translate-y-1/2 h-24 md:h-32 rounded-lg shadow-2xl">
         <span className="flex flex-col items-center gap-4 md:gap-6">
           <a href="https://www.linkedin.com/in/sandra-polb/">
             <FaLinkedin className="w-8 h-8 md:w-10 md:h-10" />
