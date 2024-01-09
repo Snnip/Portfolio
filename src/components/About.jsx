@@ -4,9 +4,8 @@ const About = () => {
       id="about"
       className="flex flex-col min-h-screen w-full bg-yellow-400 text-black p-10 md:p-20 dark:text-slate-200 dark:bg-slate-900">
       <header>
-        <h2 className="flex justify-center text-5xl sm:text-7xl md:text-9xl uppercase mt-10 text-white">
-          <p>About me</p>
-          <p className="text-blue-500 ">.</p>
+        <h2 className="flex justify-center text-center text-5xl sm:text-7xl md:text-9xl uppercase mt-10 text-white">
+          About me
         </h2>
 
         <p className="text-center md:text-lg mt-10 md:mt-10 max-w-2xl mx-auto leading-loose">
@@ -42,7 +41,7 @@ const About = () => {
         <div className="md:w-1/2 md:max-w-lg">
           <h3 className="text-2xl mb-4 uppercase">Skills</h3>
 
-          <div className="flex flex-wrap gap-4">
+          <div className="flex flex-wrap gap-6">
             <div className="flex items-center justify-center text-white rounded-full  bg-slate-800 w-36 ">
               HTML
             </div>
@@ -69,6 +68,22 @@ const About = () => {
             </div>
             <div className="flex items-center justify-center text-white rounded-full bg-slate-800  w-36">
               GitHub
+            </div>
+          </div>
+
+          <h3 className="text-2xl mt-8 mb-4 uppercase">Soft skills</h3>
+          <div className="flex flex-wrap gap-6">
+            <div className="flex items-center justify-center text-white rounded-full  bg-slate-800 w-40 ">
+              Teamwork
+            </div>
+            <div className="flex items-center justify-center text-white rounded-full  bg-slate-800 w-40">
+              Attention to detail
+            </div>
+            <div className="flex items-center justify-center text-white rounded-full bg-slate-800 w-40 ">
+              Constancy
+            </div>
+            <div className="flex items-center justify-center text-white rounded-full bg-slate-800 w-40 ">
+              Organized
             </div>
           </div>
         </div>

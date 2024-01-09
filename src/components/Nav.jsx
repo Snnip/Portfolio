@@ -1,26 +1,12 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
-import { MdOutlineDarkMode, MdOutlineRocketLaunch } from "react-icons/md";
-import { IoSunnyOutline } from "react-icons/io5";
+import { MdOutlineRocketLaunch } from "react-icons/md";
 import { FaHamburger, FaTimes } from "react-icons/fa";
 
 const Nav = () => {
-  const [theme, setTheme] = useState("light");
   const [open, setOpen] = useState(false);
 
-  useEffect(() => {
-    if (theme === "dark") {
-      document.querySelector("html").classList.add("dark");
-    } else {
-      document.querySelector("html").classList.remove("dark");
-    }
-  }, [theme]);
-
   //----------------handlers-----------------//
-  const handleChangueTheme = () => {
-    setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
-  };
-
   const handleClick = () => {
     setOpen(!open);
   };
@@ -34,16 +20,6 @@ const Nav = () => {
     <>
       <div>
         <div className="lg:hidden block absolute top-8 w-full left-0 right-0 bg-blue-800 transition z-40">
-          <button
-            onClick={handleChangueTheme}
-            className="px-12 py-4 w-2 h-2 text-yellow-500">
-            {theme === "light" ? (
-              <MdOutlineDarkMode className="w-8 h-8" />
-            ) : (
-              <IoSunnyOutline className="w-8 h-8" />
-            )}
-          </button>
-
           <ul className="flex flex-col gap-8 items-center text-3xl p-6 text-white">
             <li>
               <a
@@ -122,16 +98,6 @@ const Nav = () => {
                 </a>
               </li>
             </ul>
-          </div>
-
-          <div>
-            <button onClick={handleChangueTheme} className="text-yellow-500">
-              {theme === "light" ? (
-                <MdOutlineDarkMode className="w-8 h-8" />
-              ) : (
-                <IoSunnyOutline className="w-8 h-8" />
-              )}
-            </button>
           </div>
         </div>
         <div className="md:hidden flex items-center justify-between w-full">

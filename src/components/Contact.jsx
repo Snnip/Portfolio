@@ -43,9 +43,8 @@ const Contact = () => {
       id="contact"
       className="flex flex-col min-h-screen w-full bg-yellow-400 text-black p-10 md:p-20 dark:text-slate-200 dark:bg-slate-900">
       <header>
-        <h2 className="flex flex-row justify-center text-5xl sm:text-7xl md:text-9xl mt-10 uppercase">
-          <p className="text-white">Contact</p>
-          <p className="text-blue-500">.</p>
+        <h2 className="flex flex-row justify-center text-5xl text-white sm:text-7xl md:text-9xl mt-10 uppercase">
+          Contact
         </h2>
       </header>
 
